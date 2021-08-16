@@ -1,0 +1,814 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "version": "1.0.0",
+    "meshName": "telink_test_room",
+    "id": "http://www.bluetooth.com/specifications/assigned-numbers/mesh-profile/cdb-schema.json#",
+    "meshUUID": "00000000000000000000000000000000",
+    "ivIndex": "11223344",
+    "netKeys": [
+        {
+            "name": "",
+            "key": "445b646e78858f8f99a2a2acb9b9c3cd",
+            "oldKey": "00000000000000000000000000000000",
+            "minSecurity": "secure",
+            "index": 0,
+            "phase": 0
+        },
+        {
+            "name": "",
+            "key": "0c2c36404a5757616a74747e8b8b9595",
+            "oldKey": "00000000000000000000000000000000",
+            "minSecurity": "secure",
+            "index": 0,
+            "phase": 0
+        }
+    ],
+    "appKeys": [
+        {
+            "name": "",
+            "index": 0,
+            "boundNetKey": 0,
+            "key": "60964771734fbd76e3b40519d1d94a48",
+            "oldKey": "00000000000000000000000000000000"
+        }
+    ],
+    "nodes": [
+        {
+            "UUID": "169a0ee86a22743683af97d90402f0df",
+            "macAddress": "000000000000",
+            "name": "",
+            "deviceKey": "0909cede8f3c853c591cf1407c949edd",
+            "unicastAddress": "0001",
+            "sno": "00000001",
+            "security": "secure",
+            "cid": "0000",
+            "pid": "0101",
+            "vid": "3333",
+            "crpl": "03e8",
+            "features": {
+                "relay": 0,
+                "proxy": 0,
+                "friend": 0,
+                "lowPower": 0
+            },
+            "relayRetransmit": {
+                "count": 5,
+                "interval": 30
+            },
+            "networkTransmit": {
+                "count": 5,
+                "interval": 30
+            },
+            "netKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "appKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "elements": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "location": "0000",
+                    "models": [
+                        {
+                            "modelId": "0000",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "0001",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "0002",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "0003",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "000b",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "bf31",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "bf33",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "fe00",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "ff00",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "fe03",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "fe02",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "fe01",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "ff01",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "0005",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1202",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1001",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1003",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1005",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1008",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1205",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1208",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1302",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1305",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1309",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1311",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1102",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "100d",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1010",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "1015",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        },
+                        {
+                            "modelId": "00010000",
+                            "subscribe": [],
+                            "bind": [],
+                            "publish": {
+                                "address": "0000",
+                                "index": 0,
+                                "ttl": 0,
+                                "credentials": 0,
+                                "retransmit": {
+                                    "count": 2,
+                                    "interval": 100
+                                },
+                                "period": {
+                                    "numberOfSteps": 2,
+                                    "resolution": 10000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "secureNetworkBeacon": true,
+            "configComplete": true,
+            "blacklisted": false,
+            "defaultTTL": 10
+        },
+        {
+            "UUID": "fffb8b17100f87000000000000000000",
+            "macAddress": "000000000000",
+            "name": "",
+            "deviceKey": "fffb8b17100f8700529049f1f1bbe9eb",
+            "unicastAddress": "0001",
+            "sno": "00000001",
+            "security": "secure",
+            "cid": "0000",
+            "pid": "0000",
+            "vid": "0000",
+            "crpl": "0000",
+            "features": {
+                "relay": 0,
+                "proxy": 0,
+                "friend": 0,
+                "lowPower": 0
+            },
+            "relayRetransmit": {
+                "count": 0,
+                "interval": 10
+            },
+            "networkTransmit": {
+                "count": 0,
+                "interval": 10
+            },
+            "netKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "appKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "elements": [],
+            "secureNetworkBeacon": false,
+            "configComplete": false,
+            "blacklisted": false,
+            "defaultTTL": 0
+        },
+        {
+            "UUID": "359af6b4087d8832b6d69f2fced5e175",
+            "macAddress": "a4c1389c1323",
+            "name": "",
+            "deviceKey": "f8e5ffbbc80fbce228b133ca8718662e",
+            "unicastAddress": "0002",
+            "sno": "00000000",
+            "security": "secure",
+            "cid": "0000",
+            "pid": "0000",
+            "vid": "0000",
+            "crpl": "0000",
+            "features": {
+                "relay": 0,
+                "proxy": 0,
+                "friend": 0,
+                "lowPower": 0
+            },
+            "relayRetransmit": {
+                "count": 5,
+                "interval": 30
+            },
+            "networkTransmit": {
+                "count": 5,
+                "interval": 30
+            },
+            "netKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "appKeys": [
+                {
+                    "index": 0,
+                    "updated": false
+                }
+            ],
+            "elements": [],
+            "secureNetworkBeacon": true,
+            "configComplete": true,
+            "blacklisted": false,
+            "defaultTTL": 10
+        }
+    ],
+    "provisioners": [
+        {
+            "provisionerName": "Telink provisioner",
+            "UUID": "fffb8b17100f87000000000000000000",
+            "allocatedGroupRange": [
+                {
+                    "highAddress": "c0ff",
+                    "lowAddress": "c000"
+                }
+            ],
+            "allocatedUnicastRange": [
+                {
+                    "highAddress": "03ff",
+                    "lowAddress": "0001"
+                }
+            ],
+            "allocatedSceneRange": [
+                {
+                    "firstScene": "0001",
+                    "lastScene": "000f"
+                }
+            ]
+        }
+    ],
+    "scenes": [],
+    "groups": [
+        {
+            "name": "Living room",
+            "address": "c000",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Kitchen",
+            "address": "c001",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Master bedroom",
+            "address": "c002",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Secondary bedroom",
+            "address": "c003",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Balcony",
+            "address": "c004",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Bathroom",
+            "address": "c005",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "Hallway",
+            "address": "c006",
+            "parentAddress": "0000"
+        },
+        {
+            "name": "others",
+            "address": "c007",
+            "parentAddress": "0000"
+        }
+    ]
+}
